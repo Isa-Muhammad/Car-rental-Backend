@@ -1,0 +1,25 @@
+{
+  "name": "carrentalapp",
+  "version": "1.0.0",
+  "description": "A car rental web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "test.js",
+    "start": "node server.js",
+    "initsql": "mysql -u root -p < sql_initialise.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isa-Muhammad/Car-rental-app.git"
+  },
+  "author": "Isa Muhammad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isa-Muhammad/Car-rental-app/issues"
+  },
+  "homepage": "https://github.com/Isa-Muhammad/Car-rental-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  }
+}
