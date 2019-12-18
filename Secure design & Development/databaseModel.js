@@ -6,7 +6,7 @@ const config = require('./config');
 
 const sql = mysql.createConnection(config.mysql);
 
-module.export.listCars =() => {
+module.exports.listFacts = () => {
   return new Promise((resolve, reject) => {
     let query = 'select cars.carName, cars.id, cars.carPrice, cars.imageSrc from cars order by cars.id desc'
 
