@@ -34,3 +34,8 @@ async function sendCars(req, res){
     error(res,e);
   }
 }
+
+function error(res, msg) {
+  res.sendStatus(500);
+  console.error(msg);
+}
